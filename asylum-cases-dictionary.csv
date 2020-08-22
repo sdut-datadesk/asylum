@@ -1,0 +1,21 @@
+COLUMN NAME,DESCRIPTION
+JUDGE_NAME,the name of the immigration judge who made the initial decision in the case
+IDNCASE,the unique identifier for the case
+IDNPROCEEDING,the unique identifier for the proceeding that the decision analysis comes from
+CUSTODY,"the asylum seeker's custody status. D is detained, R is released and N is never detained"
+DECISION,the judge's decision on the proceeding record; used to populate the four outcome columns
+COMP_FISCAL_YEAR,the federal fiscal year in which the proceeding was completed
+LAST_DECISION,the decision in the most recent proceeding on the case
+BASE_CITY,the name of the immigration court where the proceeding happened
+REPRESENTED,flagged if the case had an E-28 on file
+CIRCUIT_COURT,the circuit court that has jurisdiction over the proceeding because of where it happened
+STATE,the state in which the proceeding happened
+NATIONALITY,the asylum seeker's country of origin
+ORDERED_DEPORTED,"flagged if the DECISION column says ""Remove"""
+RELIEF_GRANTED,"flagged if the DECISION column says ""Relief granted"""
+VOLUNTARY_DEPARTURE,"flagged if the DECISION column says ""Voluntary departure"""
+OTHER_OUTCOME,"flagged if the DECISION column has any other option besides the previous three columns, including ""Termination"" and ""Prosecutorial discretion - Admin close"""
+DETAINED,flagged if the CUSTODY column is D
+RELEASED,flagged if the CUSTODY column is R
+NEVER_DETAINED,flagged if the CUSTODY column is N
+ICE_OR_INS,flagged if the judge's biographical information includes a history of working as an attorney for Immigration and Customs Enforcement or its predecessor
