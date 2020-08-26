@@ -1,7 +1,7 @@
 # Asylum data analysis and findings
 By: [Lauryn Schroeder](https://www.sandiegouniontribune.com/sdut-lauryn-schroeder-staff.html) and [Kate Morrissey](https://www.sandiegouniontribune.com/sdut-kate-morrissey-staff.html)
 
-This repository contains data and code for the analysis [reported and published](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/who-gets-asylum-even-before-trump-system-was-riddled-with-bias-and-disparities) by *The San Diego Union-Tribune* on Aug. 23, 2020. The article is Part II, of "Returned," a [multi-part series](https://www.sandiegouniontribune.com/returned) that aims to help readers understand what the U.S. asylum system was meant to do, how it previously functioned and what it has become.
+This repository contains data and code for the analysis [reported and published](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/who-gets-asylum-even-before-trump-system-was-riddled-with-bias-and-disparities) by *The San Diego Union-Tribune* on Aug. 23, 2020. The article is Part II of ["Returned,"](https://www.sandiegouniontribune.com/returned) a multi-part series that aims to help readers understand what the U.S. asylum system was meant to do, how it previously functioned and what it has become.
 
 [Read Part I of the "Returned" series](https://www.sandiegouniontribune.com/news/immigration/story/2020-02-24/protecting-the-worlds-most-vulnerable-what-it-takes-to-make-a-case-under-us-asylum-system#nt=00000170-75a7-d4fb-a17d-7de7f56b0001-liS0promoButtonnt=00000170-75a7-d4fb-a17d-7de7f56b0001-liS0promoButton), published on Feb. 24, 2020.
 
@@ -22,7 +22,10 @@ With guidance from statisticians, the Union-Tribune performed various statistica
 ### The SDUT-asylum repository contains the following:
 
 - `asylum-cases.csv` - Cases with asylum applications filed that received initial decisions from FY 2009 through FY 2018.
-- `asylum-cases-dictionary.csv` - A data dictionary of column and column entry descriptions. See [EOIR data key](https://www.justice.gov/eoir/page/file/eoir-case-data-code-key/download) for additional code descriptions.
+- `asylum-cases-dictionary.csv` - A data dictionary for column and column entries in asylum-cases.csv. See [EOIR data key](https://www.justice.gov/eoir/page/file/eoir-case-data-code-key/download) for additional code descriptions.
+- `appeal-cases.csv` - Cases in asylum-cases.csv that appealed initial decisions to the Board of Immigration Appeals.
+- `appeal-cases-dictionary.csv` - A data dictionary for column and column entries in appeal-cases.csv.
+- `appeals-analysis.R` - R script documenting findings published in [Part II](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/who-gets-asylum-even-before-trump-system-was-riddled-with-bias-and-disparities).
 - `narrative-analysis.R` - R script documenting findings used in the [interactive narrative](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/asylum-system-interactive-experience) graphic that walks readers through the asylum system.
 - `outcomes-analysis.R` - R script for analysis on asylum outcomes and interactive bubble graphic published in [Part II](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/who-gets-asylum-even-before-trump-system-was-riddled-with-bias-and-disparities).
 - `statistical-analysis.R` - R script for statistical analysis factors that impact asylum outcomes.
