@@ -1,0 +1,13 @@
+COLUMN_NAME,DESCRIPTION,TYPE
+IDNAPPEAL,the unique identifier for the appeal,character
+IDNCASE,the unique identifier for the case,character
+IDNPROCEEDING,the unique identifier for the proceeding that the decision analysis comes from,character
+JUDGE_NAME,the name of the immigration judge who made the initial decision in the case,character
+BASE_CITY,the name of the immigration court where the proceeding happened,character
+BIA_DECISION,the Board of Immigration Appeal's decision on the appeal; used to populate the four outcome columns,number
+BIA_UPHELD,"flagged  as 1 if the Board of Immigration Appeal's decision was any of the following: Denied, Dismiss Appeal/Affirm IJ's Decision, Dismissed (Voluntary Departure Granted), Summarily Dismiss, Summary Affirmance, SUMMARY AFFIRMANCE/CD, and Sustain. This column was also flagged if the BIA's decision was Background Check Remand or Grant with no Remand and the appeal was filed by DHS. It was also flagged if the BIA decision was Final denial of EOIR 42B/40 and the appeal was not filed by DHS",number
+BIA_OVERRULED,flagged as 1 if the Board of Immigration Appeal's decision was Remand or Termination. This column was also flagged if the BIA decision was Background Check Remand or Grant with no Remand and the appeal was not filed by DHS. This column was also flagged if the appeal was filed by DHS and the BIA decision was Final Denial of EOIR 42B/40,number
+BIA_OTHER,"flagged as 1 if the Board of Immigration Appeal's decision was any of the following: American Baptist Church Settlement, Administratively Closed, Administratively Closed - DHS PD, Continued, Lacks Jurisdiction - BIA, Other, ROP Returned to Court to correct deficiency, Terminate - DHS PD, Withdrawal of Appeal, Temporary Protected Status, Withdrawal - DHS PD, or Lacks Jurisdiction - BIA",number
+BIA_NODECISION,flagged as 1 if the Board of Immigration Appeals had not entered a decision,number
+APPEAL_FILED_BY,"identifies which party, the respondent (Alien) or the federal government (DHS) filed the appeal, if both filed, or if ""Other"" filed",character
+APPEAL_REPPED,flagged as 1 if the respondent had legal representation for the appeal,number
