@@ -1,10 +1,9 @@
 # Asylum data analysis and findings
 By: [Lauryn Schroeder](https://www.sandiegouniontribune.com/sdut-lauryn-schroeder-staff.html) and [Kate Morrissey](https://www.sandiegouniontribune.com/sdut-kate-morrissey-staff.html)
 
-This repository contains data and code for the analysis [reported and published](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/who-gets-asylum-even-before-trump-system-was-riddled-with-bias-and-disparities) by *The San Diego Union-Tribune* on Aug. 23, 2020. The article is Part II, of "Returned," a multi-part series that aims to help readers understand what the U.S. asylum system was meant to do, how it previously functioned and what it has become.
+This repository contains data and code for the analysis [reported and published](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/who-gets-asylum-even-before-trump-system-was-riddled-with-bias-and-disparities) by *The San Diego Union-Tribune* on Aug. 23, 2020. The article is Part II, of "Returned," a [multi-part series](https://www.sandiegouniontribune.com/returned) that aims to help readers understand what the U.S. asylum system was meant to do, how it previously functioned and what it has become.
 
-"Returned" series [landing page](https://www.sandiegouniontribune.com/returned)
-[Part I of the "Returned" series](https://www.sandiegouniontribune.com/news/immigration/story/2020-02-24/protecting-the-worlds-most-vulnerable-what-it-takes-to-make-a-case-under-us-asylum-system#nt=00000170-75a7-d4fb-a17d-7de7f56b0001-liS0promoButtonnt=00000170-75a7-d4fb-a17d-7de7f56b0001-liS0promoButton), published on Feb. 24, 2020.
+[Read Part I of the "Returned" series](https://www.sandiegouniontribune.com/news/immigration/story/2020-02-24/protecting-the-worlds-most-vulnerable-what-it-takes-to-make-a-case-under-us-asylum-system#nt=00000170-75a7-d4fb-a17d-7de7f56b0001-liS0promoButtonnt=00000170-75a7-d4fb-a17d-7de7f56b0001-liS0promoButton), published on Feb. 24, 2020.
 
 ### Methodology
 
