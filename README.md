@@ -24,7 +24,7 @@ With guidance from statisticians, the Union-Tribune performed various statistica
 - `asylum-cases.csv` - Cases with asylum applications filed that received initial decisions from FY 2009 through FY 2018.
 - `asylum-cases-dictionary.csv` - A data dictionary of column and column entry descriptions. See [EOIR data key](https://www.justice.gov/eoir/page/file/eoir-case-data-code-key/download) for additional code descriptions.
 - `narrative-analysis.R` - R script documenting findings used in the [interactive narrative](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/asylum-system-interactive-experience) graphic that walks readers through the asylum system.
-- `outcomes-analysis.R` - R script for analysis on asylum outcomes and interactive bubble graphic published in Part 2.
+- `outcomes-analysis.R` - R script for analysis on asylum outcomes and interactive bubble graphic published in [Part II](https://www.sandiegouniontribune.com/news/immigration/story/2020-08-23/who-gets-asylum-even-before-trump-system-was-riddled-with-bias-and-disparities).
 - `statistical-analysis.R` - R script for statistical analysis factors that impact asylum outcomes.
 
 ### Sourcing
